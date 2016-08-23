@@ -1,0 +1,111 @@
+AAA
+
+
+1. Network Authentication, Authorization, and Accounting (AAA, pronounced "triple-A") is a technology that has been in use since before the days of the Internet as we know it today
+
+
+2. Authentication asks the question, "Who or what are you?" Authorization asks, "What are you allowed to do?" And finally, accounting wants to know, "What did you do?"
+
+3. AAA, at its core, is all about enabling mobility and dynamic security
+
+4.Without AAA, a network must be statically configured to control access
+
+5. statically configured to control access; 
+
+6.IP addresses must be fixed, systems cannot move, and connectivity options should be well defined.
+
+7.AAA has a part to play in almost all the ways we access a network today
+
+8. Emerging technologies such as Network Access Control (NAC) extend AAA even into corporate Ethernet access (historically the "trusted" network that set the benchmark level of security that all other types of access had to match)
+
+9. wireless hotspots need AAA for security, partitioned networks require AAA to enforce segmentation, and remote access of every kind uses AAA to authorize remote users
+
+10.For most network administrators, the genesis of AAA coincided with the development of the Remote Authentication Dial-In User Service (RADIUS) protocol 
+
+11. Another widely adopted AAA protocol, which predates RADIUS as an RFC by four years, is the Terminal Access Controller Access Control System (TACACS) 
+
+12.Though never an Internet standard, TACACS evolved into XTACACS and then TACACS+, the latter of which is the only version of TACACS in use today.
+
+
+
+Core Components of AAA
+
+1. 
+
+Client: The client is the device attempting to access the network. The client either authenticates itself, or it acts as a proxy to authenticate the user.
+
+
+2.
+Policy Enforcement Point (Authenticator):
+
+The Policy Enforcement Point (PEP) is someÂ­times called the authenticator or dial-in server, VPN concentrator, firewall, gateway General Packet Radio Service (GPRS) support node,Ethernet switch, wireless access point, or an inline security gateway
+
+The PEP is responsible for enforcing the terms of a client's access. This enforcement varies based on the capabilities of the PEP and is discussed later in this article
+
+3.
+
+Policy Information Point:
+
+1.  The Policy Information Point (PIP) is a repository of information to help make the access decision
+
+2. It could be a database of device IDs, a user directory such as the Lightweight Directory Access Protocol (LDAP), a one-time password (OTP) token server, or any other system that houses data relevant to a device or user access request.
+
+ Policy Decision Point (AAA Server):
+
+4. The Policy Decision Point (PDP) is the brain of the AAA decision. It collects the access request from the client through the PEP
+
+
+5.It also queries any relevant PIPs to gather the information it needs to make the access decision.
+
+6. The PDP, as its name implies, is the entity that makes the final decision around network access
+
+7. It also can send specific authorizations back to the PEP that apply settings or constraints to the client's network traffic.
+
+8. Accounting and Reporting System
+
+9.Whether on a dedicated system or built as part of a PDP, tracking use of the network with accounting is one of the best features of AAA
+
+10.With all forms of network access now offering controlled access, the AAA service can tell you who got on the network, from where, and what that person was granted access to.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

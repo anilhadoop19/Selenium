@@ -1,0 +1,34 @@
+1. IEEE standards deal with only Local Area Networks (LAN) and Metropolitan Area Networks (MAN)
+
+2. IEEE 802.17 Resilient packet ring
+ IEEE 802.18 Radio Regulatory TAG
+ IEEE 802.19 Coexistence TAG
+ IEEE 802.20 Mobile Broadband Wireless Access
+ IEEE 802.21 Media Independent Handoff
+ IEEE 802.22 Wireless Regional Area Network
+
+3. IEEE 802.3 Ethernet (CSMA/CD)
+
+A method called Carrier Sense Multiple Access with Collision Detection (CSMA/CD) was used to send data over shared single co-axial cable connected to all computers on a network. In this method, the computer terminals (also called as stations) transmits the data over cable whenever the cable is idle, If more than one station transmit at same time and if they collide, the transmission will be stopped by such stations. They will wait for some random time and restart transmission.
+
+4. Ethernet or IEEE802.3 standards only define MAC (Data link) and Physical layer of standard OSI model.
+
+5. Different types of cable topologies:
+
+The four types of cable topologies are, linear, spine, tree, segmented.
+
+Linear:
+
+The linear topology is like a single cable running in all portions of building. The stations are connected to the cable through tapping.
+
+Spine:
+
+ It looks like our back one spinal cord, where multiple numbers of horizontal cables are connected to a vertical line through special amplifiers or repeaters.
+spine topology
+
+
+Tree:
+This is most general topology because a network with two paths between some pairs of stations would suffer from interference between the signals.
+
+Segmented:
+Since each version of 802.3 has maximum cable length per segment, to allow larger networks, repeaters can connect multiple cables.

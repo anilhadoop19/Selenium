@@ -1,0 +1,48 @@
+Switched 802.3 LANS
+
+1. LAN switch is a device with multiple inputs and outputs to interconnect multiple numbers of hosts and computing terminals
+
+
+2. LAN switch prevents data packet collision, and maximizes transmission speed as well as bandwidth allocation.
+
+
+The core job of a switch is to take packets that arrive on an input and forward (or switch) them to the right output so that they will reach their appropriate destination.
+
+3. The heart of a LAN switch is a high-speed backplane and room for typically 4-32 plug in line cards, each containing one to eight connectors
+
+4. Further each connector has a 10 Base-T twisted pair connection to a single host computer
+
+5. The plug-in card receives the frame and check for the destination address
+
+6.Collision prevention: There are two types of collision prevention; they are local on-card LAN and buffer-input port card.
+
+http://www.eeherald.com/section/design-guide/ieee802_p2.html
+
+
+7.In case of local on-card LAN, collision are detected and handled like any other CSMA/DC network- with retransmission using the binary backoff algorithm
+
+8. Where as in buffer-input port card, the incoming frame-data are stored in RAM. Once a frame is completely received the card can then check to see if the frame is destines for another port on the same card, or for a distant port.
+
+
+
+802.4
+
+IEEE802.4: Token bus
+
+
+In this system, the nodes are physically connected as a bus, but logically form a ring with tokens passed around to determine the turns for sending
+
+A 802.4 frame has the following fields:
+Preamble: The Preamble is for synchronizing the receiver's clock.
+
+Starting Delimiter (SD) and End Delimiter (ED): The SD and ED fields are used to mark frame boundaries. Both contain analog encoding of symbols other than 1 or 0 
+
+
+
+Frame Control (FC): FC is used to distinguish data frames from control frames. Data frames carries the frame's priority as well as a bit which the destination can set as an acknowledgement.
+
+
+Destination and Source Address: The Destination and Source address fields may be of 2 bytes (for a local address) or 6 bytes (for a global address
+
+Data: This is the actual data and it is of 8182 bytes when 2 byte addresses are used and 8174 bytes for 6 byte addresses.
+Checksum: A 4-byte checksum of the data for error detection.

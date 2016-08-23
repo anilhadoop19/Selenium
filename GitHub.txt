@@ -1,0 +1,239 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Staging Area With Repository
+
+$git diff
+
+Working copy is different from repository
+
+$git add first.text
+ 
+to add the working copy to staging area. It means it is temporory storing area
+
+$ git commit -m ""
+
+to deposit file in git
+
+$ git diff --staged
+
+
+
+
+
+
+Delete Files
+
+
+
+$ git rm third.txt
+
+to remove the file from repository
+
+$git status
+
+to chek the file deleted
+
+But after that command commit to delete entire file
+
+$git commit -m " for deleting file also same process and command"
+
+
+
+
+
+Rename and Move files
+
+
+$ git commmit -m "rename first to second"
+
+$git mv second.txt pudding txt
+
+moving of a file is same as rename of a file
+
+
+
+
+
+
+Working with project
+
+
+
+
+$ cd Desktop/Dogs
+
+$git Init
+
+to intialize a repository
+
+$git status
+
+shows status
+
+
+$git add .
+
+which adds all files to repository
+
+
+Staging area
+
+$git Commit -m "first commit"
+
+
+
+
+
+
+Commit directly to the repository
+
+
+
+$git status
+
+
+
+$git commit -am ""cleaned up the comments
+
+it skips the staging area and directly submit to the repository
+
+
+
+$get Checkout --index.html
+
+
+It takes file from the repository and make its a working copy
+
+
+
+
+UNSTAGE FILES
+
+
+
+
+$git log
+
+to check the files 
+
+
+
+
+Remove the files from staging area
+
+
+$git reset HEAD profile.html
+
+bring back to the working area from staging area
+
+
+
+
+
+
+
+Old versions from Repository
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

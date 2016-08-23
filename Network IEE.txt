@@ -1,0 +1,75 @@
+The bottom two layers of the OSI reference model pertain to hardware: the NIC and the network cabling
+
+2.  the Institute of Electrical and Electronics Engineers (IEEE) has developed enhancements specific to different NICs and cabling
+
+3.802 defined network standards for the physical components of a network (the interface card and the cabling) that are accounted for in the physical and data-link layers of the OSI reference model.
+
+4.The 802 specifications set standards for:
+
+Network interface cards (NICs).
+Wide area network (WAN) components.
+Components used to create twisted-pair and coaxial cable networks.
+
+
+5. The 802 specifications define the ways NICs access and transfer data over physical media. These include connecting, maintaining, and disconnecting network devices.
+
+
+6. Choosing which protocol to run at the data-link layer is the single most important decision you make when designing a LAN. This protocol defines the speed of the network, the method used to access the physical network, the types of cables you can use, and the NICs and drivers you install.
+
+7. Specification	Description
+802.1	Sets Internetworking standards related to network management.
+802.2	Defines the general standard for the data-link layer. The IEEE divides this layer into two sublayers: the LLC and MAC layers (discussed in the previous lesson). The MAC layer varies with different network types and is defined by standard IEEE 802.3.
+802.3	Defines the MAC layer for bus networks that use Carrier-Sense Multiple Access with Collision Detection (CSMA/CD). This is the Ethernet Standard.
+802.4	Defines the MAC layer for bus networks that use a token-passing mechanism (Token Bus LAN).
+802.5	Defines the MAC layer for token ring networks (Token Ring LAN).
+802.6	Sets standards for metropolitan area networks (MANs), which are data networks designed for towns or cities. In terms of geographic breadth, MANs are larger than LANs, but smaller than WANs. MANs are usually characterized by very-high-speed connections using fiber-optic cables or other digital media.
+802.7	Used by the Broadband Technical Advisory Group.
+802.8	Used by the Fiber-Optic Technical Advisory Group.
+802.9	Defines integrated voice/data networks.
+802.10	Defines network security.
+802.11	Defines wireless network standards.
+802.12	Defines Demand Priority Access LAN, 100BaseVG-AnyLAN.
+802.13	Unused.
+802.14	Defines cable modem standards.
+802.15	Defines wireless personal area networks (WPAN).
+802.16	Defines broadband wireless standards.
+
+8. Enhancements to the OSI Reference Model
+
+
+
+The bottom two OSI layers, the physical layer and the data-link layer, define how multiple computers can use the network simultaneously without interfering with each other
+
+9. 
+
+Logical Link Control (LLC) Establishing and terminating links, controlling frame traffic, sequencing frames, and acknowledging frames
+Media Access Control (MAC) Managing media access, delimiting frames, checking frame errors, and recognizing frame addresses
+
+
+10. 
+
+Logical Link Control (LLC) Sublayer
+
+The LLC sublayer manages data-link communication and defines the use of logical interface points called service access points (SAP). Other computers can refer to and use SAPs to transfer information from the LLC sublayer to the upper OSI layers. Category 802.2 defines these standards.
+
+Media Access Control (MAC) Sublayer
+
+As Figure 5.9 indicates, the MAC sublayer is the lower of the two sublayers, providing shared access to the physical layer for the computers' NICs. The MAC layer communicates directly with the NIC and is responsible for delivering error-free data between two computers on the network.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+RADIUS
+
+
+1. The Remote Authentication Dial-In User Service (RADIUS) protocol was developed by Livingston Enterprises, Inc., as an access server authentication and accounting protocol
+
+
+2.Communication between a network access server (NAS) and a RADIUS server is based on the User Datagram Protocol (UDP)
+
+3. Generally, the RADIUS protocol is considered a connectionless service
+
+4. Issues related to server availability, retransmission, and timeouts are handled by the RADIUS-enabled devices rather than the transmission protocol.
+
+5.RADIUS is a client/server protocol.
+
+6.The RADIUS client is typically a NAS and the RADIUS server is usually a daemon process running on a UNIX or Windows NT machine
+
+7. The client passes user information to designated RADIUS servers and acts on the response that is returned
+
+
+8.  RADIUS servers receive user connection requests, authenticate the user, and then return the configuration information necessary for the client to deliver service to the user
+
+9.   A RADIUS server can act as a proxy client to other RADIUS servers or other kinds of authentication servers
+
+10.
