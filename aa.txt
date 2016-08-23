@@ -1,0 +1,26 @@
+package TestNg;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+
+public class A {
+
+@Test
+public void tetsA(){
+Assert.assertEquals("Gmail", "Gmail");
+}
+@Test
+public void tetsB(){
+Assert.assertEquals("yahoo", "Gmail");
+}
+@Test
+public void tetsC(){
+Assert.assertEquals("Google", "Gmail");
+}
+
+
+
+}
